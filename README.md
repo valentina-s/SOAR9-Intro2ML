@@ -29,3 +29,12 @@ To use azure notebooks log-in https://notebooks.azure.com/ (it should work with 
 Navigate to https://notebooks.azure.com/anon-ag8bvg/libraries/SOAR9-Intro2ML
 
 and click clone (this will create a local copy of the notebooks and you can edit them).
+
+If you have some problems installing `keras` from within the last notebook, try
+
+```
+  conda uninstall --yes numba
+  conda uninstall --yes keras
+  conda install --yes keras
+```
+
